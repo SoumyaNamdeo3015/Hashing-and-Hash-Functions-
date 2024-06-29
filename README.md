@@ -8,17 +8,17 @@ This project involves managing a banking system using a hashmap to store bank ac
 
 # Strategies to be Implemented: 
 &bull; Chaining <br>
-- In this strategy, the goal is to manange collision by creating a vector at each has table index. Each vector handles all accounts that share the same hash code.
+- In this strategy, the goal is to manange collision by creating a vector at each has table index. Each vector handles all accounts that share the same hash code.<br>
 &bull; Linear Probing <br>
-- Linear Probing will allow us to navigate hash table in a linear fashion to find the next available space when collision occurs.
+- Linear Probing will allow us to navigate hash table in a linear fashion to find the next available space when collision occurs.<br>
 &bull; Quadratic Probing <br>
 - The quadratic probing strategy introduces a more sophisticated approach by using quadratic increments to
 find the next available slot.This technique strikes a balance between proximity and distribution, providing
-an alternative to linear probing.
+an alternative to linear probing.<br>
 &bull; Cubic Probing <br>
 Taking the concept further, cubic probing employs cubic increments to search for open slots. This strategy
 adds an extra layer of complexity to the probe sequence, aiming to distribute data evenly and mitigate
-clustering issues
+clustering issues. <br>
 # Structure and Fucntions :
 
 &bull; In BaseClass.h there's an Account struct.
