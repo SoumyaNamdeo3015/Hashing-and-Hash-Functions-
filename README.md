@@ -24,3 +24,56 @@ clustering issues. <br>
 - In BaseClass.h there's an Account struct. <br>
 - There are two vectors namely bankStorage1d (for probing strategies) and bankStorage2d for(chaining strategies). 
 
+## Functions / Methods :
+
+### void createAccount(string id, int count) :
+This function creates a new account with the given
+id and initial count value. The id uniquely identifies
+the account, and the count parameter represents the
+initial balance of the account.
+
+### vector<int> getTopK(int k) :
+Retrieves the top k balances values from the
+database. Returns a vector containing at most k balances values.
+
+### int getBalance(string id) : 
+Returns the current balance of the account identified
+by the provided id. In case the id is not present
+return -1.
+
+### void addTransaction(string id, int count) :
+
+Adds a transaction of count value to the account
+specified by the id. If the account is not already
+present, create a new one and then add this transaction. The transaction amount can be positive or
+negative, representing deposits or withdrawals, respectively. Transactions will not lead to a negative
+balance.
+
+
+### bool doesExist(string id) :
+Checks if an account with the given id exists in the
+database. Returns true if the account exists, and
+false otherwise.
+
+### int databaseSize() :
+Returns the total number of accounts currently
+stored in the database.
+
+### int hash(string id) :
+
+This function computes the hash value for the given
+id. Use this hash function only in your strategies.
+
+
+### bool delete(string id):
+
+This function deletes the key stored in database. It
+will return true after deletion. If the key was not
+present, then it should return false
+
+
+
+
+
+
+
