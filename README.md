@@ -21,6 +21,6 @@ adds an extra layer of complexity to the probe sequence, aiming to distribute da
 clustering issues. <br>
 # Structure and Fucntions :
 
-&bull; In BaseClass.h there's an Account struct.
-&bull; There are two vectors namely bankStorage1d (for probing strategies) and bankStorage2d for(chaining strategies). 
+- In BaseClass.h there's an Account struct. <br>
+- There are two vectors namely bankStorage1d (for probing strategies) and bankStorage2d for(chaining strategies). 
 
