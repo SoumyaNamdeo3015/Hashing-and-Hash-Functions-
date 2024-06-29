@@ -16,7 +16,7 @@ This project involves managing a banking system using a hashmap to store bank ac
 find the next available slot.This technique strikes a balance between proximity and distribution, providing
 an alternative to linear probing.<br>
 - ## Cubic Probing <br>
-Taking the concept further, cubic probing employs cubic increments to search for open slots. This strategy
+- Taking the concept further, cubic probing employs cubic increments to search for open slots. This strategy
 adds an extra layer of complexity to the probe sequence, aiming to distribute data evenly and mitigate
 clustering issues. <br>
 # Structure and Fucntions :
